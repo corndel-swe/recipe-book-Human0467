@@ -1,0 +1,39 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+  }
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(174, 192, 174);
+    border: solid 1px #000000;
+    border-radius: 5;
+    box-shadow: 8px 8px 2px 1px grey;
+}
+
+.container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+  
+.nav {
+    list-style-type: none;
+    padding: 0 20px;
+    margin: 40;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(173, 150, 16);
+    line-height: 45px;
+}
+
+li {
+    margin-right: 20px;
+}
+
