@@ -9,13 +9,20 @@ ul {
   }
 
 .box {
+    transition: box-shadow .3s, colour 2s;
     width: 200px;
     height: 200px;
     background-color: rgb(174, 192, 174);
     border: solid 1px #000000;
     border-radius: 5;
     box-shadow: 8px 8px 2px 1px grey;
+    color: rgb(174, 192, 174);
 }
+
+.box:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    color: black;
+  }
 
 .container {
     display: flex;
